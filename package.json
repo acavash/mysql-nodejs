@@ -1,0 +1,23 @@
+{
+  "name": "mysql-nodejs",
+  "version": "1.0.0",
+  "description": "Amazon-like storefront with the MySQL and Node.js",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acavash/mysql-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acavash/mysql-nodejs/issues"
+  },
+  "homepage": "https://github.com/acavash/mysql-nodejs#readme",
+  "dependencies": {
+    "inquirer": "^5.1.0",
+    "mysql": "^2.15.0"
+  }
+}
