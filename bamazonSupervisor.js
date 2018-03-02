@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
   host     : 'localhost',
   port		: 3306,
   user     : 'root',
-  password : 'root',
+  password : '',
   database : 'bamazon_db'
 });
 
@@ -65,3 +65,4 @@ function newDepartment() {
 			connection.query('INSERT INTO department SET ?', {departmentName: response.name, overHeadCosts: response.price})
 			choices();
 		})
+  }
